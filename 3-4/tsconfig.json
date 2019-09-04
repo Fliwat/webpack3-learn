@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    // "outDir": "" // 因为有webpack output，这里不用写
+    "target": "es5",
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings/modules"
+    ]
+  },
+
+  "include": [
+    "./src/*"
+  ],
+
+  "exclude": [
+    "./node_modules"
+  ]
+}
